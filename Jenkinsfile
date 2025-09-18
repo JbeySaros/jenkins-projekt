@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = "jbeysaros23/jenkins-test"
+        DOCKER_IMAGE = "jbeysaros23/monimage-devops"
     }
 
     stages {
