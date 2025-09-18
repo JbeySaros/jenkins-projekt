@@ -2,12 +2,11 @@ pipeline {
     agent any
 
     triggers {
-        // Vérifie les changements GitHub toutes les 2 minutes
         pollSCM('H/2 * * * *')
     }
 
     environment {
-        DOCKER_IMAGE = "jbeysaros23/monimage-devops"
+        DOCKER_IMAGE = "jbeysaros23/jenkins-test"
     }
 
     stages {
